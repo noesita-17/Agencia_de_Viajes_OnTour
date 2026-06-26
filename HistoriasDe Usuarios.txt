@@ -1,0 +1,57 @@
+ACTIVIDAD 4: HISTORIAS DE USUARIO
+HU01 — Consultar saldo acumulado
+
+Como apoderado
+
+Quiero consultar mi saldo acumulado
+
+Para conocer cuánto dinero falta para completar la meta de la gira.
+HU02 — Descargar contrato
+
+Como apoderado
+
+Quiero descargar el contrato de la gira de estudios
+
+Para conocer las condiciones, fechas y servicios contratados sin tener que solicitar una reunión especial.
+HU03 — Descargar póliza de seguro
+
+Como apoderado
+
+Quiero descargar la póliza de seguro de mi pupilo
+
+Para conocer la cobertura y el plan de acción en caso de emergencia.
+HU04 — Recibir notificación de depósitos
+
+Como apoderado
+
+Quiero recibir un correo electrónico cada vez que se registre un depósito en la cuenta de mi pupilo
+
+Para mantenerme informado de forma oportuna sin tener que consultar al ejecutivo de ventas.
+HU05 — Registrar contrato de curso
+
+Como ejecutivo de ventas
+
+Quiero registrar y mantener la información del contrato de un curso (cliente, destino, fecha, número de alumnos, servicios)
+
+Para gestionar correctamente cada gira de estudios contratada.
+HU06 — Consultar montos depositados por curso
+
+Como ejecutivo de la agencia
+
+Quiero consultar los montos depositados por un determinado curso
+
+Para verificar los aportes y gestionar la contratación anticipada de servicios.
+HU07 — Reporte de avance por colegio
+
+Como dueño de la agencia
+
+Quiero obtener un reporte del porcentaje de avance de cada curso/colegio y las actividades concretadas
+
+Para evaluar el desempeño comercial y tomar decisiones de negocio.
+HU08 — Agregar seguros al contrato
+
+Como ejecutivo de ventas
+
+Quiero agregar los seguros negociados con las aseguradoras a un contrato
+
+Para ofrecer cobertura colectiva a los alumnos del curso.
