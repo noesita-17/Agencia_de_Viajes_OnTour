@@ -1,0 +1,64 @@
+Característica ISO 25010            Aplicación en el Prototipo       Justificación y Decisiones de Diseño
+
+Usabilidad                          Navegación intuitiva y           La Pantalla 2 (Dashboard Apoderado)
+                                    Dashboard centralizado.          centraliza los datos más críticos del
+                                                                     viaje (saldo acumulado, meta total,
+                                                                     saldo pendiente y porcentaje de avance)
+                                                                     en una sola vista, reduciendo el esfuerzo
+                                                                     mental del usuario. Además, la Pantalla 3
+                                                                     (Historial de Depósitos), la Pantalla 4
+                                                                     (Contrato) y la Pantalla 5 (Póliza de Seguro)
+                                                                     se diseñan con una estructura de navegación
+                                                                     simple y consistente, permitiendo que un
+                                                                     apoderado no tecnológico encuentre y descargue
+                                                                     su información sin perderse.
+
+Fiabilidad                          Información validada  y          Para asegurar que la información mostrada
+                                    consistencia de datos            sea correcta y oportuna, la Pantalla 7
+                                    económicos.                      (Reporte de Avance) procesa y genera indicadores
+                                                                     y gráficos basados exclusivamente en los
+                                                                     depósitos reales previamente validados.
+                                                                     Asimismo, las consultas de la Pantalla 4
+                                                                     y Pantalla 5 garantizan el acceso directo
+                                                                     a los documentos vigentes y oficiales asociados
+                                                                     a la gira, evitando discrepancias en la
+                                                                     información legal y financiera.
+
+Seguridad                           Login obligatorio  y             El acceso a toda la plataforma está protegido
+                                    control de acceso                de manera estricta por la Pantalla 1
+                                    por roles de usuario.            (Inicio de Sesión), exigiendo correo electrónico
+                                                                     y contraseña para resguardar la privacidad
+                                                                     de los datos. Como decisión de diseño de
+                                                                     seguridad, se implementa un control de
+                                                                     acceso según el tipo de usuario: la Pantalla 6
+                                                                     (Administración de Contratos) queda habilitada
+                                                                     únicamente para perfiles administrativos
+                                                                     (como ejecutivos), impidiendo de forma lógica
+                                                                     que un apoderado visualice o altere registros
+                                                                     ajenos.
+
+Eficiencia                          Acceso rápido a información      Optimizamos la experiencia minimizando los
+                                    con mínima cantidad de clics.    pasos necesarios para realizar las consultas
+                                                                     operativas. Desde el menú principal o los
+                                                                     accesos directos del Dashboard (Pantalla 2),
+                                                                     el apoderado puede llegar al desglose detallado
+                                                                     del Historial de Depósitos (Pantalla 3) o
+                                                                     gatillar la descarga inmediata de su
+                                                                     documentación en la Pantalla 4 y Pantalla 5
+                                                                     en un par de segundos, evitando pantallas
+                                                                     intermedias innecesarias.
+
+Mantenibilidad                      Diseño modular  por              La aplicación se estructura de manera
+                                    pantallas de                     desacoplada dividiendo las responsabilidades
+                                    responsabilidad única.           por pantallas específicas. Por ejemplo,
+                                                                     la lógica visual de la Pantalla 7
+                                                                     (Reporte de Avance) está completamente
+                                                                     separada de la Pantalla 6 (Administración
+                                                                     de Contratos). Esto asegura que si en el futuro
+                                                                     la gerencia o el área técnica solicita agregar
+                                                                     nuevos tipos de gráficos o indicadores, el
+                                                                     cambio se pueda codificar de forma aislada
+                                                                     sin riesgo de romper el inicio de sesión o la
+                                                                     visualización de los saldos del apoderado.
+
+
